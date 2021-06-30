@@ -1,0 +1,27 @@
+html, body, #app{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+#app :global(.ant-table-tbody > tr) {
+    height: 28px !important;
+}
+#app :global(.ant-table-tbody > tr > td) {
+    font-size: 14px;
+    padding: 0 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000000;
+    padding: 0 8px 0 8px !important;
+}
+#app :global(.ant-table-thead > tr > th) {
+    background-color: #D8E5F0;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 12px 3px 8px;
+}
+#app :global(.ant-table-tbody > tr:nth-child(odd)) {
+    background-color: #F7F7F7;
+}
