@@ -7,6 +7,7 @@ import config from './http/config.js'
 import api from './http/interface.js' //引入接口文件
 import 'ant-design-vue/dist/antd.css';
 import Antd from 'ant-design-vue';
+import './assets/css/global.css';
 
 Vue.config.productionTip = false
 // 环境判断
